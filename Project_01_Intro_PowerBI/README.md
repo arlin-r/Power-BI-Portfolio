@@ -22,4 +22,3 @@ El análisis busca responder preguntas clave relacionadas con:
 
 * Power BI
 * Power Query
-* DAX
