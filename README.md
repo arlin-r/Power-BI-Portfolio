@@ -1,24 +1,34 @@
-# 📊 Power BI Portfolio
+# 📊 Portafolio de Power BI
 
-This repository documents my learning journey in Power BI through a Udemy course.
+Este repositorio documenta mi proceso de aprendizaje en **Power BI** a través de cursos prácticos y ejercicios aplicados al análisis de datos.
 
-The projects in this repository showcase hands-on practice with data analysis, dashboard creation, and business intelligence fundamentals.
+Aquí se incluyen proyectos enfocados en el análisis, visualización de datos y generación de insights para la toma de decisiones de negocio.
 
-## 🛠 Tools & Skills (In Progress)
+## 🌐 Nota sobre el idioma
+
+Los proyectos de este repositorio pueden estar desarrollados **en español o en inglés**, dependiendo del contexto del ejercicio, el dataset original o el objetivo del proyecto.
+
+* Algunos datasets y análisis se mantienen en **español**.
+* Otros proyectos y visualizaciones se presentan **en inglés**.
+* Power BI se utiliza en su interfaz en inglés.
+
+Esta combinación refleja un entorno real de aprendizaje y trabajo en análisis de datos.
+
+## 🛠 Herramientas y habilidades
 
 * Power BI
 * Power Query
-* DAX (Basics)
-* Data Visualization
-* Data Analysis Fundamentals
+* DAX (nivel básico / intermedio)
+* Análisis de datos
+* Visualización de información
 
-## 📁 Projects
+## 📁 Proyectos
 
-Projects will be added progressively as I advance through the course.
+Los proyectos se irán agregando progresivamente conforme avance en mi formación.
 
-## 👩‍💻 Author
+## 👩‍💻 Autora
 
 Arlin Ramírez
-Aspiring Data Analyst
+Analista de Datos en formación
 
 
