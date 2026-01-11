@@ -1,5 +1,3 @@
-# Project 01 – Introduction to Power BI
-
 # Proyecto 01 – Análisis de Ventas
 
 ## 🎯 Objetivo
