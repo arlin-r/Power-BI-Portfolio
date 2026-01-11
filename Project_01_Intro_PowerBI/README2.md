@@ -5,7 +5,7 @@
 Empresa dedicada a la comercialización de productos en línea.
 El objetivo del proyecto es desarrollar un tablero de control interactivo en Power BI para analizar el comportamiento de las ventas, identificar tendencias y responder preguntas clave de negocio a partir de los datos disponibles.
 
-<img width="886" height="497" alt="image" src="https://github.com/user-attachments/assets/85dc493e-6e24-4a86-809c-9eab17323435" />
+<img width="1157" height="657" alt="Screenshot 2026-01-11 163600" src="https://github.com/user-attachments/assets/2da4bc70-8eaa-4995-bad7-e35c09cf6de7" />
 
 
 ## Pregunta 1
