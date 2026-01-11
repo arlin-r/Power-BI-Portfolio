@@ -1,13 +1,27 @@
 # Project 01 – Introduction to Power BI
 
-## 🎯 Objective
+# Proyecto 01 – Análisis de Ventas
 
-Learn the basics of Power BI, including data import, interface navigation, and simple visualizations.
+## 🎯 Objetivo
 
-## 📘 Status
+Desarrollar un tablero de control interactivo en Power BI para analizar las ventas de una empresa dedicada a la comercialización de productos en línea.
 
-🚧 In progress
+## 📊 Dataset
 
-## 🛠 Tools Used
+El dataset utilizado en este proyecto se encuentra en **español**, tal como fue proporcionado en el ejercicio original del curso.
+
+## 🔍 Preguntas de negocio
+
+El análisis busca responder preguntas clave relacionadas con:
+
+* Volumen de ventas por mes
+* Facturación mensual
+* Productos más vendidos
+* Comportamiento por categorías
+* Tendencias de ventas en el tiempo
+
+## 🛠 Herramientas utilizadas
 
 * Power BI
+* Power Query
+* DAX
