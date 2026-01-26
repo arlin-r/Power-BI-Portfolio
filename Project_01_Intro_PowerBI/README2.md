@@ -1,7 +1,5 @@
 ## Analysis for online marketing
 
-## Contexto del proyecto
-
 Empresa dedicada a la comercialización de productos en línea.
 El objetivo del proyecto es desarrollar un tablero de control interactivo en Power BI para analizar el comportamiento de las ventas, identificar tendencias y responder preguntas clave de negocio a partir de los datos disponibles.
 
