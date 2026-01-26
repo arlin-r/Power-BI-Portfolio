@@ -1,0 +1,101 @@
+/* Configuración de la página */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #ffffff; /* Fondo blanco limpio como en tu imagen */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Título principal "Proyectos" */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0 10px 40px;
+    color: #000;
+}
+
+/* Subtítulo gris pequeño */
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+/* Menú de navegación simple (como en tu imagen) */
+nav {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #0000ff; /* Azul de link clásico */
+    text-decoration: underline;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Contenedor del Proyecto Individual */
+.proyecto-seccion {
+    padding: 20px 40px;
+}
+
+/* Título del Dashboard con el emoji de barras */
+h2 {
+    font-size: 24px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Texto descriptivo del análisis */
+.descripcion {
+    font-size: 16px;
+    max-width: 1000px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Lista de Herramientas, Periodo y Tipo */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+/* Título Azul del Dashboard (El que dice "Empleo Público por Institución 2025") */
+.titulo-dashboard {
+    color: #1a3db1; /* El azul rey oscuro de tu imagen */
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Contenedor del Power BI */
+.iframe-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
+    /* Si quieres el efecto de sombra que tiene el cuadro "137" en tu imagen: */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

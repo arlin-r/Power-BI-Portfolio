@@ -1,0 +1,18 @@
+portfolio/
+│
+├── index.html        (Home)
+├── projects.html     (Proyectos)
+├── sql.html          (SQL & BD)
+├── powerbi.html      (Dashboards)
+├── data.html         (Datasets)
+├── about.html        (Sobre mí)
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── main.js
+│
+└── assets/
+    ├── images/
+    └── icons/
