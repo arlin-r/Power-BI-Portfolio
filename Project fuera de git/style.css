@@ -1,0 +1,222 @@
+/* =====================
+   RESET Y BASE
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+/* =====================
+   HEADER
+===================== */
+header {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* =====================
+   NAV
+===================== */
+nav {
+  margin-top: 25px;
+}
+
+nav a {
+  color: #ffffff; /* Cambiado a blanco para que resalte en el header azul */
+  text-decoration: none;
+  margin: 0 14px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: opacity 0.3s;
+}
+
+nav a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+/* =====================
+   SECCIONES
+===================== */
+section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+section p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* =====================
+   TARJETAS EXISTENTES
+===================== */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+/* =====================
+   LISTAS
+===================== */
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* =====================
+   POWER BI EMBED
+===================== */
+.powerbi-container {
+  margin-top: 25px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.powerbi-container iframe {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+  background-color: #0f172a;
+  color: #3cb5e1;
+  text-align: center;
+  padding: 25px;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
+
+/* ============================================================
+   NUEVA SECCIÓN: GALERÍA DE PROYECTOS (ESTILO MODERNIZADO)
+   ============================================================ */
+
+#seccion-proyectos-recientes .contenedor-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+#seccion-proyectos-recientes .proyecto-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: animarEntrada 0.6s ease forwards;
+}
+
+@keyframes animarEntrada {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#seccion-proyectos-recientes .proyecto-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+#seccion-proyectos-recientes .imagen-wrapper {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#seccion-proyectos-recientes .imagen-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+#seccion-proyectos-recientes .proyecto-card:hover .imagen-wrapper img {
+  transform: scale(1.1);
+}
+
+#seccion-proyectos-recientes .contenido {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#seccion-proyectos-recientes .contenido h3 {
+  font-size: 1.3rem;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+#seccion-proyectos-recientes .contenido p {
+  font-size: 0.95rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+#seccion-proyectos-recientes .link-proyecto {
+  display: inline-block;
+  background-color: #1e3a8a; /* Azul a juego con tu header */
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+#seccion-proyectos-recientes .link-proyecto:hover {
+  background-color: #395dd5;
+  text-decoration: none;
+}
+
+/* Retrasos para la animación escalonada */
+#seccion-proyectos-recientes .proyecto-card:nth-child(1) { animation-delay: 0.1s; }
+#seccion-proyectos-recientes .proyecto-card:nth-child(2) { animation-delay: 0.2s; }
+#seccion-proyectos-recientes .proyecto-card:nth-child(3) { animation-delay: 0.3s; }
