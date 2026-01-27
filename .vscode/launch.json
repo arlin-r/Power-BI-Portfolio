@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Abrir index.html",
-            "url": "file://${workspaceFolder}/Project fuera de git/index.html",
+            "url": "file://${workspaceFolder}/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
